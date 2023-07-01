@@ -13,16 +13,16 @@ export const companyInfo = () => {
         </View>
     )
 }
-export const firstHeader = () => {
+export const firstHeader = ({userData}) => {
     return (
         <View style={{ textAlign: 'center', backgroundColor: 'gray', border: '1px solid #000', marginTop: '5px', borderLeftWidth: 0, borderRightWidth: 0 }}>
             <Text style={{ fontSize: '14px' }}>PACKING LISTE DE COLISAGE/ PACKING LIST</Text>
             <View style={{ flexDirection: "row", justifyContent: 'space-around', fontSize: '12px' }}>
                 <Text>
-                    NO: 11111111111
+                    NO: {userData.id}
                 </Text>
                 <Text>
-                    Date: 10.05.2023
+                    Date: {userData.date}
                 </Text>
             </View>
         </View>
@@ -34,7 +34,7 @@ export const secondHeader = () => {
             <View style={secondHeaderLeftStyle}><Text>Seller</Text></View>
             <View style={secondHeaderLeftStyle}><Text>Buyer</Text></View>
             <View style={secondHeaderLeftStyle}><Text></Text></View>
-            <View><Text>Country of shipment</Text></View>
+            <View style={{fontFamily:'Times-Bold'}}><Text>Country of shipment</Text></View>
 
         </View>
     )

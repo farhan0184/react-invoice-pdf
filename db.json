@@ -1,0 +1,55 @@
+{
+  "itemsLists": [
+    {
+      "comDes": "helo",
+      "brandName": "helo",
+      "modelNo": "helo",
+      "purchaseOrderNumber": "helo",
+      "hsCodeNumber": "helo",
+      "cartonNo": "helo",
+      "numberOfPallet": "helo",
+      "numberOfPCS": "helo",
+      "numberOfPieces": "helo",
+      "netWeight": "helo",
+      "grossWeight": "helo",
+      "volumeTotal": "helo",
+      "totalNetWeight": "helo",
+      "totalGrossWeight": "helo",
+      "id": 1
+    },
+    {
+      "comDes": "galo",
+      "brandName": "galo",
+      "modelNo": "galo",
+      "purchaseOrderNumber": "galo",
+      "hsCodeNumber": "galo",
+      "cartonNo": "galo",
+      "numberOfPallet": "galo",
+      "numberOfPCS": "galo",
+      "numberOfPieces": "galo",
+      "netWeight": "galo",
+      "grossWeight": "galo",
+      "volumeTotal": "galo",
+      "totalNetWeight": "galo",
+      "totalGrossWeight": "galo",
+      "id": 2
+    },
+    {
+      "comDes": "faran",
+      "brandName": "faran",
+      "modelNo": "faran",
+      "purchaseOrderNumber": "faran",
+      "hsCodeNumber": "faran",
+      "cartonNo": "faran",
+      "numberOfPallet": "faran",
+      "numberOfPCS": "faran",
+      "numberOfPieces": "faran",
+      "netWeight": "faran",
+      "grossWeight": "faran",
+      "volumeTotal": "faran",
+      "totalNetWeight": "faran",
+      "totalGrossWeight": "faran",
+      "id": 3
+    }
+  ]
+}

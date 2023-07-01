@@ -1,0 +1,38 @@
+.form{
+    width: 60%;
+    padding: 30px ;
+    background-color: gray;
+    margin: 0 auto;
+}
+
+.input-form{
+    display: flex;
+}
+
+
+input{
+    display: block;
+    width: 300px;
+    padding: 7px 10px;
+    margin: 10px 30px;
+}
+
+label{
+    
+    margin: 10px 30px;
+}
+.btn{
+    display: flex;
+    justify-content: center;
+    margin: 10px 0 ;
+}
+.btn{
+    padding: 10px 15px;
+    background-color: burlywood;
+    border: 0;
+}
+
+.btn:hover{
+    background-color: rgb(158, 111, 50);
+    color: white;
+}

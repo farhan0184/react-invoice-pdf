@@ -26,6 +26,7 @@ export const secondHeaderLeftStyle ={
     borderStyle: "solid",
     borderColor: "#000",
     borderRightWidth: 1,
+    fontFamily: 'Times-Bold',
 }
 
 export const secondHeaderColStyle ={
@@ -38,14 +39,16 @@ export const secondHeaderColStyle ={
 export const secondHeaderLeftColStyle ={
     width: "75%",
     flexDirection: "row",
-    flexWrap: "wrap"
+    flexWrap: "wrap",
+    fontFamily:'Times-Bold'
     
 }
 export const secondHeaderRightColStyle ={
     width: "25%",
     borderStyle: "solid",
     borderColor: "#000",
-    borderBottomWidth: 1
+    borderBottomWidth: 1,
+    fontFamily:'Times-Bold'
 }
 
 export const secondHeaderLeftColLeftStyle={
@@ -53,7 +56,7 @@ export const secondHeaderLeftColLeftStyle={
     borderStyle: "solid",
     borderColor: "#000",
     borderRightWidth: 1,
-    borderBottomWidth: 1
+    borderBottomWidth: 1,
 }
 
 // third section
