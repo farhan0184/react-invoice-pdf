@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import UserInput from './userInput/userInput';
 import Table from './tableSection/table';
 import './dashBoard.css'
-import ItemInputForm from './item_input_table/item_form_input';
+import ItemInputForm from './modal/item_form_input';
 import InvoicePdfDown from '../invoicePdfDownlod/InvoicePdfDown';
 
 const DashBoard = () => {

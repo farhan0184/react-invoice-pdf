@@ -1,3 +1,9 @@
+.modal{
+    position:'absolute';
+    width:"100%";
+    top:0;
+}
+
 .form{
     width: 60%;
     padding: 30px ;
@@ -35,4 +41,16 @@ label{
 .btn:hover{
     background-color: rgb(158, 111, 50);
     color: white;
+}
+
+@media (max-width: 600px){
+
+.input-form{
+   display: inline;
+}
+.form{
+    position: absolute;
+    width: 100%;
+}
+    
 }
